@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet"> 
+    <style>
+      :root {
+        --content-font: 'Major Mono Display', monospace;
+        --other-font: 'Mali', cursive;
+      }
+
+      @keyframes expand {
+        0%   {margin-left: 100%; margin-right: 100%; }
+        50%   {margin-left: 50%; margin-right: 50%; }
+        100% {margin-left: 0%; margin-right: 0%; }
+      }
+
+      @keyframes fade-in {
+        0%   { opacity: 0%;}
+        100% { opacity: 100%;}
+      }
+      
+      @keyframes slide-up {
+        0%   {bottom: -100px;}
+        100% {bottom: 0px;}
+      }
+
+      slnky-link {
+        color:#ffffff;
+        font: bold;
+        text-align: center;
+        font-family: var(--other-font);
+      }
+
+      hr {
+        color:#ffffff;
+        position: relative;
+        animation-name: expand;
+        animation-duration: 1s;
+      }
+
+      footer {
+        padding-bottom: 120px;
+      }
+
+      a, a:hover {
+        color:#ffffff;
+        text-decoration: none;
+      }
+
+      source-code {
+        color:#ffffff;
+        text-decoration: none;
+        font: bold;
+        text-align: center;
+        font-family: var(--other-font);
+      }
+
+      body {
+        background: #171218;
+        text-align: center;
+        max-width: 100%;
+        overflow-x: hidden;
+        z-index: -1;
+      }
+
+      bottom-dock {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+      }
+
+      #col-xs-6 {
+        background-color:none;
+        margin-top:10px;
+      }
+
+      social-nets {
+        position: relative; 
+        top: 15px;
+        margin-bottom: 40px;
+      }
+
+      profile-holder {
+        background-image: url(profile-picture-border.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        display: block;
+        pointer-events: none;
+        top: 15px;
+        height: 120px;
+      }
+
+      .profile-picture {
+        position: relative;
+        border-radius: 50%;
+        pointer-events: none;
+        top: 10px;
+        left: 0px;
+        height: 100px;
+      }
+      
+      qr-code-button::before {
+        margin-top: 20px;
+        margin-left: -90px;
+        justify-content: end;
+        position: relative;
+        content: url(https://img.icons8.com/ios/50/ffffff/qr-code.png);
+        display:inline-block;
+        transform: scale(.65);
+      }
+
+      qr-code-button::after{
+        margin-top: 30px;
+        content: "qr code";
+        color: #ffffff;
+        font-family: var(--content-font);
+        font-size: 20px;
+        position:absolute;
+      }
+      
+      verified {
+        margin-top: 95px;
+        margin-left: -15px;
+        position: absolute;
+        content:url(https://img.icons8.com/ios-glyphs/30/ffffff/verified-account--v1.png);
+        pointer-events: none;
+        height: 25px;
+      }
+
+      bio {
+        font-size: 26px;
+        font-weight: bold;
+        color: #ffffff;
+        font-family: var(--content-font);
+      }
+
+      .links {
+        font-size: 22px;
+        color: #ffffff;
+        font-weight: bold;
+        margin: 20px;
+        font-family: var(--content-font);
+      }
+      
+      .videobg {
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        position: fixed; /* requires for to position video properly */
+      }
+
+      video {
+        animation-duration: 1s;
+        animation-name: fade-in;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        filter: brightness(50%);
+        object-fit: cover; /* combined with 'absolute', works like background-size, but for DOM elements */
+      }
+    </style>
+    <title>Owais Shaikh</title>
+    <script>
+      function speed(){
+        var vid = document.getElementById('video');
+	vid.load();
+        vid.playbackRate = 5;
+      }
+      window.onload = speed;
+    </script>
+  </head>
+  <body>
+    <div class="videobg">
+      <video muted playsinline autoplay loop id='video'>
+        <source src="Vaporwave.mp4" type="video/mp4">
+      </video>
+    </div>
+    <profile-holder>
+      <img src="https://gitlab.com/uploads/-/system/user/avatar/2840163/avatar.png?width=400" class='profile-picture'>
+      <verified/>
+    </profile-holder>
+    <a href="https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=BEGIN%3AVCARD%0AVERSION%3A2.1%0AFN%3AOwais+Shaikh%0AN%3AShaikh%3BOwais%0ATEL%3BCELL%3A%2B91+7090+102+309%0AEMAIL%3BHOME%3BINTERNET%3A0x4f%40tuta.io%0AURL%3Aowais.codes%0AADR%3A%3B%3B%3BMumbai%3B%3B400055%3BIndia%0AEND%3AVCARD%0A&qzone=10&margin=0&size=1000x1000&ecc=L">
+      <qr-code-button/>
+    </a>
+    <hr class="mt-2 mb-3"/>
+    <bio>some stuff i've worked on...</bio>
+    <hr class="mt-2 mb-3"/>
+    <div class="container">
+      <div class="row">
+        <div class="col" align="center">
+          <a class="thumbnail" href="https://keyspace.cloud">
+            <p class="links"><img src="https://img.icons8.com/ios/50/ffffff/domain.png" height="35" width="35" class="rounded"/>&nbsp;keyspace - an open source all-in-one authentication solution</p>
+          </a>
+        </div>
+      </div>
+      <hr class="mt-2 mb-3"/>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col" align="center">
+          <a class="thumbnail" href="https://gitlab.com/ThomasCat/wristkey">
+            <p class="links"><img src="https://img.icons8.com/ios/50/ffffff/android.png" height="35" width="35" class="rounded"/>&nbsp;wristkey - standalone 2fa codes on your wrist</p>
+          </a>
+        </div>
+      </div>
+      <hr class="mt-2 mb-3"/>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col" align="center">
+          <a class="thumbnail" href="https://github.com/4f77616973/GetPerms">
+            <p class="links"><img src="https://img.icons8.com/ios/50/ffffff/android.png" height="35" width="35" class="rounded"/>&nbsp;getperms - a small java wrapper library to get app information</p>
+          </a>
+        </div>
+      </div>
+      <hr class="mt-2 mb-3"/>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col" align="center">
+          <a class="thumbnail" href="https://gitlab.com/thomascat/sentry">
+            <p class="links"><img src="https://img.icons8.com/ios/50/ffffff/android.png" height="35" width="35" class="rounded"/>&nbsp;sentry - a demo app for android device sensor monitoring</p>
+          </a>
+        </div>
+      </div>
+      <hr class="mt-2 mb-3"/>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col" align="center">
+          <a class="thumbnail" href="#">
+            <p class="links"><img src="https://img.icons8.com/ios/50/ffffff/light-on.png" height="35" width="35" class="rounded"/>&nbsp;...and a few custom roms, apk ports and some home automation</p>
+          </a>
+        </div>
+      </div>
+      <hr class="mt-2 mb-3"/>
+    </div>
+    <footer align="center">
+      <b style="color: #ffffff;">Copyright &copy; 2021 Owais Shaikh</b>
+      <br>
+      <source-code>Like my page? <a href="https://gitlab.com/ThomasCat/miami">Click here!</a></b></a></source-code>
+    </footer>
+    <bottom-dock class="container" style="background-color: rgba(0, 0, 0, 0.75);">
+      </div>
+      <hr class="mt-2 mb-3"/>
+      <social-nets class="row">
+        <div class="col" align="center">
+          <a class="thumbnail" href="https://github.com/4f77616973">
+            <img src="https://img.icons8.com/ios/50/ffffff/github.png" class="rounded"/>
+          </a>
+        </div>
+        <div class="col" align="center">
+          <a class="thumbnail" href="https://gitlab.com/ThomasCat">
+            <img src="https://img.icons8.com/ios/50/ffffff/gitlab.png" class="rounded"/>
+          </a>
+        </div>
+        <div class="col" align="center">
+          <a class="thumbnail" href="https://www.linkedin.com/in/%E2%A0%80-%E2%A0%80-5899991b6/">
+            <img src="https://img.icons8.com/ios/50/ffffff/linkedin.png" class="rounded"/>
+          </a>
+        </div>
+        <div class="col" align="center">
+          <a class="thumbnail" href="https://stackoverflow.com/users/14719980/testusernamepleaseignore">
+            <img src="https://img.icons8.com/ios/50/ffffff/stackoverflow.png" class="rounded"/>
+          </a>
+        </div>
+      </social-nets>
+    </bottom-dock>
+  </body>
+</html>
