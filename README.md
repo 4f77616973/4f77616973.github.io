@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/Code%20License-Proprietary-purple)](LICENSE)
 [![Preview](https://img.shields.io/badge/Preview-Click%20Here!-blue)](https://thomascat.gitlab.io/miami/)
 
-# Miami ([demo](https://thomascat.gitlab.io/miami))
+# Miami ([demo](https://4f77616973.github.io/miami-theme/))
 
 A fast, lightweight, [Vice City / vaporwave](https://entertainment.directv.com/did-grand-theft-auto-vice-city-invent-vaporwave/) inspired template landing page. Designed specially for [SlinkyLink](https://slnky.link).
 
