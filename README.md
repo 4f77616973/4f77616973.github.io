@@ -5,7 +5,7 @@
 
 # Miami ([demo](https://4f77616973.github.io/miami-theme/))
 
-A fast, lightweight, [Vice City / vaporwave](https://entertainment.directv.com/did-grand-theft-auto-vice-city-invent-vaporwave/) inspired template landing page. Designed specially for [SlinkyLink](https://slnky.link).
+A fast, lightweight, [Vice City / vaporwave](https://entertainment.directv.com/did-grand-theft-auto-vice-city-invent-vaporwave/) inspired template landing page.
 
 ## USAGE
 
