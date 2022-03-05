@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-site/static/css/main.4f2f73ed.css",
-    "main.js": "/my-site/static/js/main.bb911ed6.js",
-    "static/js/787.a5fa54f9.chunk.js": "/my-site/static/js/787.a5fa54f9.chunk.js",
-    "static/media/Vaporwave1.mp4": "/my-site/static/media/Vaporwave1.5a0bba5458faaac06d67.mp4",
-    "static/media/logo.svg": "/my-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/my-site/index.html",
-    "main.4f2f73ed.css.map": "/my-site/static/css/main.4f2f73ed.css.map",
-    "main.bb911ed6.js.map": "/my-site/static/js/main.bb911ed6.js.map",
-    "787.a5fa54f9.chunk.js.map": "/my-site/static/js/787.a5fa54f9.chunk.js.map"
+    "main.css": "/static/css/main.4f2f73ed.css",
+    "main.js": "/static/js/main.18d97da7.js",
+    "static/js/787.a5fa54f9.chunk.js": "/static/js/787.a5fa54f9.chunk.js",
+    "static/media/Vaporwave1.mp4": "/static/media/Vaporwave1.5a0bba5458faaac06d67.mp4",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.4f2f73ed.css.map": "/static/css/main.4f2f73ed.css.map",
+    "main.18d97da7.js.map": "/static/js/main.18d97da7.js.map",
+    "787.a5fa54f9.chunk.js.map": "/static/js/787.a5fa54f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f2f73ed.css",
-    "static/js/main.bb911ed6.js"
+    "static/js/main.18d97da7.js"
   ]
 }
