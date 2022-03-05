@@ -22,7 +22,7 @@ function App() {
             this site is under maintenance. come back later.
           </span>
           
-          <hr style={{width: 250, marginTop: 20, marginBottom: 20}}/>
+          <hr style={{width: 300, marginTop: 20, marginBottom: 20}}/>
           
           <span className='maintenance-text'>
             ce site indisponible. revenez plus tard.
