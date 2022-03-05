@@ -1,7 +1,7 @@
 {
   "name": "my-site",
-  "proxy": "https://owais.codes",
-  "homepage": "https://4f77616973.github.io/my-site",
+  "homepage": "https://owais.codes",
+  "proxy": "https://4f77616973.github.io/my-site",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
