@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f2f73ed.css",
-    "main.js": "/static/js/main.18d97da7.js",
-    "static/js/787.a5fa54f9.chunk.js": "/static/js/787.a5fa54f9.chunk.js",
-    "static/media/Vaporwave1.mp4": "/static/media/Vaporwave1.5a0bba5458faaac06d67.mp4",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.4f2f73ed.css.map": "/static/css/main.4f2f73ed.css.map",
-    "main.18d97da7.js.map": "/static/js/main.18d97da7.js.map",
-    "787.a5fa54f9.chunk.js.map": "/static/js/787.a5fa54f9.chunk.js.map"
+    "main.css": "/owais.codes/static/css/main.4f2f73ed.css",
+    "main.js": "/owais.codes/static/js/main.aae25847.js",
+    "static/js/787.a5fa54f9.chunk.js": "/owais.codes/static/js/787.a5fa54f9.chunk.js",
+    "static/media/Vaporwave1.mp4": "/owais.codes/static/media/Vaporwave1.5a0bba5458faaac06d67.mp4",
+    "static/media/logo.svg": "/owais.codes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/owais.codes/index.html",
+    "main.4f2f73ed.css.map": "/owais.codes/static/css/main.4f2f73ed.css.map",
+    "main.aae25847.js.map": "/owais.codes/static/js/main.aae25847.js.map",
+    "787.a5fa54f9.chunk.js.map": "/owais.codes/static/js/787.a5fa54f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f2f73ed.css",
-    "static/js/main.18d97da7.js"
+    "static/js/main.aae25847.js"
   ]
 }
